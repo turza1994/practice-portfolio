@@ -34,7 +34,7 @@ section{
     padding: 4% 2%;
 }
 .half-width img{
-    width: 100%;
+    width: 80%;
 }
 .name-highlight{
     color: rgb(255, 136, 0);
@@ -64,10 +64,22 @@ section{
     width: 40%;
     float: left;
     margin-left: 5%;
-    padding: 0 2%;
+    padding: 0 1vw;
     box-shadow: 1px 1px 30px gray;
     height: 68vh;
     border-left: 9px solid;
+}
+.single-experience h2{
+    font-size: 3rem;
+}
+.single-experience h3{
+    font-size: 1.4rem;
+}
+.single-experience h2{
+    font-size: 3rem;
+}
+.single-experience p{
+    font-size: 1.2rem;
 }
 #full-stack{
     border-image: linear-gradient(180deg, lightSalmon, tomato);
