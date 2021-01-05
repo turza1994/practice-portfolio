@@ -1,22 +1,22 @@
 body{
     margin: 0;
     font-family: 'Poppins', sans-serif;
+    line-height: 30px;
 }
 h1{
-    font-size: 4.5rem;
-    line-height: 1em;
-    font-weight: 9em;
+    font-size: 50px;
+    font-weight: 900;
 }
 h2{
-    font-size: 3.6em;
+    font-size: 40px;
     font-weight: 900;
 }
 h3{
-    font-size: 1.6em;
+    font-size: 25px;
     font-weight: 900;
 }
 p{
-    font-size: 1.3em;
+    font-size: 19px;
     color: rgb(61, 60, 60);
 }
 section{
@@ -29,7 +29,7 @@ section{
 }
 .half-width{
     width: 40%;
-    display: inline-block;
+    float: left;
     margin-left: 5%;
     padding: 4% 2%;
 }
@@ -62,7 +62,7 @@ section{
 }
 .single-experience{
     width: 40%;
-    display: inline-block;
+    float: left;
     margin-left: 5%;
     padding: 0 1vw;
     box-shadow: 1px 1px 30px gray;
