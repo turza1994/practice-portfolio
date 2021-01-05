@@ -59,27 +59,27 @@ section{
     background-image: url("./images/exp-bg.png");
     background-repeat: no-repeat;
     background-position: left;
+    padding-left: 2vw;
 }
 .single-experience{
-    width: 40%;
+    width: 37%;
+    height: 60vh;
     float: left;
     margin-left: 5%;
-    padding: 0 1vw;
+    padding: 1vh 1vw;
     box-shadow: 1px 1px 30px gray;
-    height: 68vh;
     border-left: 9px solid;
+    border-radius: 5px;
+    margin-top: 10vh ;
 }
 .single-experience h2{
-    font-size: 3rem;
+    font-size: 35px;
 }
 .single-experience h3{
-    font-size: 1.4rem;
-}
-.single-experience h2{
-    font-size: 3rem;
+    font-size: 20px;
 }
 .single-experience p{
-    font-size: 1.2rem;
+    font-size: 15px;
 }
 #full-stack{
     border-image: linear-gradient(180deg, lightSalmon, tomato);
