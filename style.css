@@ -2,6 +2,9 @@ body{
     margin: 0;
     font-family: 'Poppins', sans-serif;
     line-height: 30px;
+    background-color: #000000;
+background-image: linear-gradient(147deg, #000000 0%, #434343 74%);
+    color: aliceblue;
 }
 h1{
     font-size: 50px;
@@ -17,15 +20,15 @@ h3{
 }
 p{
     font-size: 19px;
-    color: rgb(61, 60, 60);
+    /* color: rgb(61, 60, 60); */
 }
 section{
     height: 100vh;
     padding-bottom: 80px;
 }
 .first-section{
-    background-image: url("./images/top-banner.png");
-    background-repeat: no-repeat;
+    /* background-image: url("./images/top-banner.png");
+    background-repeat: no-repeat; */
 }
 .half-width{
     width: 40%;
@@ -67,7 +70,7 @@ section{
     float: left;
     margin-left: 5%;
     padding: 1vh 1vw;
-    box-shadow: 1px 1px 30px gray;
+    box-shadow: 1px 1px 30px whitesmoke;
     border-left: 9px solid;
     border-radius: 5px;
     margin-top: 10vh ;
@@ -92,5 +95,5 @@ section{
 
 footer{
     text-align: center;
-    color: dimgrey;
+    color:whitesmoke;
 }
