@@ -29,7 +29,7 @@ section{
 }
 .half-width{
     width: 40%;
-    float: left;
+    display: inline-block;
     margin-left: 5%;
     padding: 4% 2%;
 }
@@ -62,7 +62,7 @@ section{
 }
 .single-experience{
     width: 40%;
-    float: left;
+    display: inline-block;
     margin-left: 5%;
     padding: 0 1vw;
     box-shadow: 1px 1px 30px gray;
